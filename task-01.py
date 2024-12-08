@@ -1,5 +1,13 @@
 
 
+def main():
+    fibonacci = caching_fibonacci()
+
+    print(fibonacci(10))
+    print(fibonacci(15))
+
+
+
 
 
 def caching_fibonacci():
@@ -21,7 +29,7 @@ def caching_fibonacci():
 
 
 
-fibonacci = caching_fibonacci()
 
-print(fibonacci(10))
-print(fibonacci(15))
+
+if __name__ == "__main__":
+    main()
